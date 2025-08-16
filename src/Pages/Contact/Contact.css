@@ -1,0 +1,152 @@
+.contact{
+    margin-top: 3em;
+}
+
+.contact button{
+    width: 6em;
+    background-color: tomato;
+    opacity: 0.8;
+    border-radius: 0.4em;
+    color: white;
+    font-weight: 900;
+    padding: 0.7em 0.3em;
+    border-radius: 2em;
+    border: none;
+}
+.contact button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.contact form{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+   
+}
+.form-input input{
+    width: 39em;
+    padding: 0.7em 1em;
+     border:1px solid rgb(255, 207, 199);
+
+    border-radius: 0.7em;
+}
+.message{
+  width: 33em !important;
+    padding: 0.7em 1em;
+     border:1px solid rgb(255, 207, 199);
+
+    border-radius: 0.7em;
+    font-size: 1.2em;
+    height: 9em;
+
+
+}
+.contact-bottom{
+   
+    margin-top: 5em;
+}
+.contact-bottom h2{
+ font-weight: 900;
+
+}
+.additional-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 7em;
+}
+.info{
+    display: flex;
+    gap: 0.2em;
+}
+
+
+@media (max-width: 590px) {
+.form-input input{
+    width: 28em;
+ 
+}
+.message{
+  width: 23.5em !important;
+  
+
+}
+}
+
+
+
+@media (max-width: 420px) {
+.form-input input{
+    width: 22em;
+ 
+}
+.message{
+  width: 19em !important;
+  
+
+}
+}
+@media (max-width: 330px) {
+.form-input input{
+    width: 17em;
+
+}
+.message{
+  width: 14em !important;
+  
+
+}
+
+.form-input h3{
+  font-size: 17px;
+}
+.contact-top h1{
+    font-size: 1.6em;
+}
+.contact-bottom h2{
+    font-size: 1.5em;
+}
+
+.info{
+   
+    flex-direction: column;
+  
+}
+.additional-info{
+  
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.remove{
+    display: none;
+}
+}
+
+@media (max-width: 270px) {
+.form-input input{
+    width: 14em;
+
+}
+.message{
+  width: 12em !important;
+  
+
+}
+}

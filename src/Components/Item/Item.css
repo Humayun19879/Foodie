@@ -1,0 +1,60 @@
+.card{
+    width: 15em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding-bottom: 1em;
+    justify-content: center;
+    box-shadow: 0px 0px 10px #00000015;
+
+   
+}
+.addandremove-inner{
+    display: flex;
+    
+}
+.number{
+    color:black;
+ background-color: white;
+    padding: 0.5em 0.5em;
+    border-radius: 6em;
+
+    font-weight: 900;
+}
+.card-item{
+    padding: 0em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+.addandremove {
+  width: 2em;
+  height: 2em;
+  display: flex;
+  position: relative;
+  left: 145px;
+
+  top: -40px;
+}
+.card-item img{
+    width: 5em !important;
+   
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+}
+.card h1{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.card h3{
+    font-size: 1em;
+}
+.card p{
+    color: tomato;
+    font-size: 1.5em;
+    font-weight: bolder;
+}

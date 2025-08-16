@@ -1,0 +1,14 @@
+.midle{
+
+  width: 80%;
+  margin: auto;
+
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+ 
+}
+::-webkit-scrollbar-thumb{
+    background: tomato;
+}

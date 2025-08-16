@@ -1,0 +1,271 @@
+a {
+    text-decoration: none;
+
+}
+.foodie-logo{
+    width: 8em;
+    height: 4em;
+}
+.nav-active{
+    border-bottom: 3px solid black;
+}
+nav .bxr{
+    display: none;
+    font-size: 2em;
+    font-weight: 800;
+}
+ul {
+    list-style: none;
+}
+nav ul a {
+    color: black;
+}
+nav {
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 3em;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.2em;
+    justify-content: center;
+    align-items: center;
+}
+.responsive{
+    display: flex;
+    justify-content: space-between;
+
+    gap: 8em;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: black;
+
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid black;
+
+}
+
+nav .right {
+    display: flex;
+    gap: 1em;
+}
+
+.l-sing {
+    display: flex;
+    gap: 1em;
+}
+
+.search-container input {
+    padding: 0.5em 1em;
+    border-top-left-radius: 6px;
+    background-color: rgb(255, 207, 199);
+    border-bottom-left-radius: 6px;
+
+}
+
+.search-container button {
+    padding: 0.4em 1em;
+    border-top-right-radius: 6px;
+    background-color: tomato;
+    opacity: 0.8;
+    color: white;
+    font-weight: 900;
+    border-bottom-right-radius: 6px;
+}
+
+.search-container button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.reddot{
+    background-color: tomato;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    border-radius: 3em;
+    top: -2.5em;
+    right: -1em;
+}
+
+.l-sing button {
+    background-color: tomato;
+    color: white;
+    font-weight: 900;
+    opacity: 0.8;
+    padding: 0.4em 0.7em;
+    border-radius: 1.5em;
+
+}
+
+.l-sing button:hover {
+
+    opacity: 1;
+    cursor: pointer;
+}
+
+.l-sing img:hover {
+    cursor: pointer;
+}
+@media (max-width:1200px) {
+    .responsive{
+
+    gap: 3em;
+
+}
+    
+}
+@media (max-width:1100px) {
+    nav {
+        padding: 1.5em 1.5em;
+      
+
+    }
+    .responsive{
+
+   
+    gap: 1em;
+
+}
+
+    nav ul {
+
+        gap: 1.6em;
+
+    }
+
+}
+
+@media (max-width:1000px) {
+    nav {
+    padding: 1.5em 1em;
+  
+}
+nav .left img{
+    width: 8em;
+}
+
+nav ul {
+    
+    gap: 1em;
+   
+}
+
+nav ul li {
+    font-size: 1.1em;
+    
+    font-weight: 700;
+  
+
+}
+
+
+.search-container input {
+    padding: 0.4em 0.5em;
+    
+}
+.search-container button {
+     padding: 0.3em 0.5em;
+}
+.l-sing button {
+ 
+    padding: 0.3em 0.6em;
+
+
+}
+    
+}
+
+
+
+
+@media (max-width:830px) {
+
+
+
+    nav .bxr{
+        display: block;
+    }
+nav ul{
+    
+     display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+nav ul li:hover {
+    border-bottom: 3px solid white;
+
+}
+
+nav ul a{
+      color: white;
+
+}
+
+
+.search-container input {
+   width: 10em;
+    
+}
+nav .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive{
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 3em;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    z-index: 2;
+  
+   background-color: black;
+
+
+
+}
+.active{
+    display: flex;
+}
+}
+@media (max-width:400px) {
+.responsive{
+ position: absolute;
+
+  
+}
+.search-container input {
+   width: 10em;
+    
+}
+}
+
+
+@media (max-width:300px) {
+   .responsive{
+ position: absolute;
+   
+  
+}
+nav .left img{
+    width: 6em;
+}
+}
